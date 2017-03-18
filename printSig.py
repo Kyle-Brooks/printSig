@@ -1,5 +1,5 @@
 #File: printSig.py
-#Author: Kyle Brooks
+#Author: Sathenus
 #Date Modified: 3/9/2016
 def printSig():
     name = "Kyle Brooks"
