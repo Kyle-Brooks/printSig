@@ -1,9 +1,10 @@
 #File: printSig.py
 #Author: Sathenus
-#Date Modified: 3/9/2016
+#Date Modified: 3/19/2017
+import time
 def printSig():
-    name = "Kyle Brooks"
-    classnumber = "CIS 110"
-    date = "3/9/2016"
-    print("%s, %s, %s." % (name, classnumber, date))
+    name = "Sathenus"
+    print("Author: " + "%s" % (name))
+    print("Date & Time Modified: " + time.strftime("%c"))
+
 printSig()
